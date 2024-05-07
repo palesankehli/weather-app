@@ -10,21 +10,28 @@
     <div class="weather-page">
       <header>
         <form>
-          <input type="search" placeholder="Enter a city..." required />
-          <input type="submit" value="submit" />
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            class="search-input-box"
+            required
+          />
+          <input type="submit" value="Submit" class="search-button-submit" />
         </form>
       </header>
 
       <main>
         <h1>City name</h1>
-        <div>
+        <div class="details">
           <span>Day </span>
-          <span>Time,</span>
+          <span>00:00,</span>
           <span>weather condition,</span> <br />
-          <span>Humidity:</span>
+          <span>Humidity: </span>
+          <span class="value"> 00</span>
           <span>Wind:</span>
+          <span class="value">00</span>
         </div>
-        <div>☀ °C</div>
+        <div>☀ 00°C</div>
       </main>
 
       <footer>
