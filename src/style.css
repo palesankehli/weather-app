@@ -1,0 +1,8 @@
+body {
+  background: linear-gradient(116deg, #ecde1f, #ea4c10);
+  background-size: 400% 400%;
+
+  -webkit-animation: heat 5s ease infinite;
+  -moz-animation: heat 5s ease infinite;
+  animation: heat 5s ease infinite;
+}
