@@ -73,6 +73,7 @@ a {
 
 .current-temperature {
   color: #536c75;
+
   text-shadow: 2px 6px 5px rgba(194, 207, 213, 0.5);
 }
 
