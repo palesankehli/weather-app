@@ -1,11 +1,9 @@
 body {
-  background: linear-gradient(
-    110.1deg,
-    rgb(34, 126, 34) 2.9%,
-    rgb(168, 251, 60) 90.3%
-  );
+  background: #dcd6f7;
 }
 
 .weather-page {
-  background-color: #c0f385ee;
+  background-color: #f4eeff;
+  max-width: 600px;
+  margin: 30px auto;
 }
