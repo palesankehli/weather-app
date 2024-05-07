@@ -1,8 +1,11 @@
 body {
-  background: linear-gradient(116deg, #ecde1f, #ea4c10);
-  background-size: 400% 400%;
+  background: linear-gradient(
+    110.1deg,
+    rgb(34, 126, 34) 2.9%,
+    rgb(168, 251, 60) 90.3%
+  );
+}
 
-  -webkit-animation: heat 5s ease infinite;
-  -moz-animation: heat 5s ease infinite;
-  animation: heat 5s ease infinite;
+.weather-page {
+  background-color: #c0f385ee;
 }
