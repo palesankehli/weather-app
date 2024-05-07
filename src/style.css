@@ -3,6 +3,9 @@ body {
 }
 
 .weather-page {
+  font-family: "Roboto", sans-serif;
+
+  font-style: normal;
   background-color: #f4eeff;
   max-width: 600px;
   margin: 45px auto;
@@ -49,5 +52,4 @@ a {
 
 .details {
   color: #8699a1;
-  position: flex;
 }
