@@ -70,3 +70,11 @@ a {
   display: flex;
   justify-content: space-between;
 }
+
+.emoji {
+  font-size: 55px;
+}
+
+.temperature-value {
+  font-size: 45px;
+}
