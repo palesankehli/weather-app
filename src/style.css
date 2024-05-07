@@ -13,6 +13,10 @@ body {
   padding: 30px;
 }
 
+header {
+  border-bottom: 1px solid #d5e9f1d8;
+  padding-bottom: 25px;
+}
 h1 {
   color: #3f4db6;
 }
@@ -21,6 +25,7 @@ footer {
   text-align: center;
   font-size: 15px;
   color: #8699a1;
+  border-top: 1px solid #d5e9f1d8;
 }
 
 .search-input-box {
