@@ -11,7 +11,7 @@ function giveWeather(response) {
   let updateDay = document.querySelector(".day");
   let date = new Date(response.data.time * 1000);
   updateTime.innerHTML = formatDate(date);
-  let weatherIcon = document.querySelector("#weather-icon");
+  let weatherIcon = document.querySelector(".weather-icon");
   weatherIcon.innerHTML = (
     <img src="${response.data.condition.icon_url}" class="weather-icon" />
   );
