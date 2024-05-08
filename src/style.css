@@ -1,12 +1,12 @@
 body {
-  background: #dcd6f7;
+  background: #a6e9e0ec;
 }
 
 .weather-page {
   font-family: "Roboto", sans-serif;
 
   font-style: normal;
-  background-color: #f4eeff;
+  background-color: #e5fcf8;
   max-width: 600px;
   margin: 45px auto;
   border-radius: 16px;
@@ -15,11 +15,11 @@ body {
 }
 
 header {
-  border-bottom: 1px solid #d5e9f1d8;
+  border-bottom: 1px solid #93eee99d;
   padding-bottom: 25px;
 }
 p {
-  color: #3f4db6;
+  color: #29a0a8;
   font-size: 35px;
   font-weight: 700;
 }
@@ -28,7 +28,7 @@ footer {
   text-align: center;
   font-size: 15px;
   color: #8699a1;
-  border-top: 1px solid #d5e9f1d8;
+  border-top: 1px solid #93eee99d;
 }
 
 .search-input-box {
@@ -41,7 +41,7 @@ footer {
 
 .search-button-submit {
   color: white;
-  background-color: #a6b1e1;
+  background-color: #42cbd4;
   padding: 15px 22px;
   border: transparent;
   border-radius: 8px;
@@ -51,21 +51,21 @@ footer {
 }
 
 .humidity-value {
-  color: #3f4db6;
+  color: #29a0a8;
   font-weight: 700;
 }
 
 .wind-value {
-  color: #3f4db6;
+  color: #29a0a8;
   font-weight: 700;
 }
 
 .unit {
-  color: #3f4db6;
+  color: #29a0a8;
   font-weight: 700;
 }
 a {
-  color: #3f4db6;
+  color: #29a0a8;
 }
 
 .details {
