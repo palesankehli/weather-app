@@ -11,6 +11,10 @@ function giveWeather(response) {
   let updateDay = document.querySelector(".day");
   let date = new Date(response.data.time * 1000);
   updateTime.innerHTML = formatDate(date);
+  let weatherIcon = document.querySelector("#weather-icon");
+  weatherIcon.innerHTML = (
+    <img src="${response.data.condition.icon_url}" class="weather-icon" />
+  );
 }
 
 function formatDate(date) {
@@ -51,7 +55,7 @@ function giveCityElement(city) {
 function searchBegin(event) {
   event.preventDefault();
   let searchInputElement = document.querySelector("#city-search-box");
-  let cityELement = document.querySelector("h1");
+  let cityELement = document.querySelector("p");
   let capitalizedValue =
     searchInputElement.value.charAt(0).toUpperCase() +
     searchInputElement.value.slice(1);
