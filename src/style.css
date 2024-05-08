@@ -18,8 +18,10 @@ header {
   border-bottom: 1px solid #d5e9f1d8;
   padding-bottom: 25px;
 }
-h1 {
+p {
   color: #3f4db6;
+  font-size: 35px;
+  font-weight: 700;
 }
 footer {
   padding: 15px;
@@ -71,7 +73,7 @@ a {
   padding-bottom: 14px;
 }
 
-.full-details {
+main {
   display: flex;
   justify-content: space-between;
 }
