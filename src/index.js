@@ -7,6 +7,27 @@ function giveWeather(response) {
   updateWind.innerHTML = response.data.wind.speed;
   let weatherCondition = document.querySelector(".condition");
   weatherCondition.innerHTML = response.data.condition.description;
+  let updateTime = document.querySelector(".time");
+  let updateDay = document.querySelector(".day");
+  let date = new Date(response.data.time * 1000);
+  updateTime.innerHTML = formatDate(date);
+}
+
+function formatDate(date) {
+  let hours = date.getHours();
+  let minutes = date.getMinutes();
+  let days = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
+  let day = days[date.getDay()];
+
+  return day + " " + hours + ":" + minutes;
 }
 
 function giveCityElement(city) {
