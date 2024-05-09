@@ -13,7 +13,7 @@ function giveWeather(response) {
   updateTime.innerHTML = formatDate(date);
   let weatherIcon = document.querySelector(".weather-icon");
   weatherIcon.innerHTML =
-    `<img src=" + response.data.condition.icon_url + "class='weather-icon' />`;
+    `<img src="${response.data.condition.icon_url}" class= "weather-icon" />`;
 }
 function formatDate(date) {
   let hours = date.getHours();
